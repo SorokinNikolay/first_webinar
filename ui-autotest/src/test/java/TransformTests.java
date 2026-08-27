@@ -11,4 +11,11 @@ public class TransformTests {
 
         assertEquals(expectedName,transformName("Николай"));
     }
+
+    @Test
+    public void secondTest() {
+        String expectedName = "Николай transformed";
+
+        assertEquals(expectedName,transformName("Николай"));
+    }
 }
